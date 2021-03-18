@@ -42,9 +42,21 @@
   <path d="M448  0 V512" stroke="lightgray" fill="white"></path>
   <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
   <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
+  <path d="M448  0 V512" stroke="lightgray" fill="black"></path>
+  <path d="M390 128 0 120" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M390 384 390 128" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M0 384 0 128" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M390 384 0 384" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M135 500 135 384" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M256 500 135 500" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+    <path d="M256 500 256 384" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M80 480 135 410" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M310 480 256 410" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M160 64 188 10" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M230 64 160 64 " stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M192 128 230 64" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
 
   <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
   <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
 </svg>
-
     
