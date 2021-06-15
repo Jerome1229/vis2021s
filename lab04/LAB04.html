@@ -1,9 +1,4 @@
-Ôªø<!--
-http://bl.ocks.org/ndarville/7075823
-https://www.oxxostudio.tw/articles/201501/svg-d3-13-csv.html
--->
 
-<!DOCTYPE html>
 
 <html lang="en">
     <head>
@@ -51,15 +46,18 @@ https://www.oxxostudio.tw/articles/201501/svg-d3-13-csv.html
     </head>
     <body>
         <h1>
-            lab04 Ë£Ω‰Ωú CSV Ë°®Ê†ºÔºåtable data cell ÂÖßÊîæÁΩÆ img
+            lab04 ªsß@ CSV ™ÌÆÊ°Atable data cell §∫©Ò∏m img
         </h1>
         <div>
             <ul>
                 <li><a href="http://bl.ocks.org/ndarville/7075823">From CSV to HTML table (Simple)</a></li>
-                <li><a href="https://www.oxxostudio.tw/articles/201501/svg-d3-13-csv.html">SVG D3.js - CSV Êï∏ÊìöËôïÁêÜ</a></li>
+                <li><a href="https://www.oxxostudio.tw/articles/201501/svg-d3-13-csv.html">SVG D3.js - CSV º∆æ⁄≥B≤z</a></li>
             </ul>
         </div>
+
+        
         <img src="./c.png" width="650">
+
         <div id="div1"></div>
         <script src="./d3.v3.min.js"></script> 
 
@@ -90,7 +88,7 @@ https://www.oxxostudio.tw/articles/201501/svg-d3-13-csv.html
                     .selectAll("td")
                         .data(function(d) { return d; }).enter()
                         .append("td")
-                         .html(function(d, i) { 
+                        .html(function(d, i) { 
                             if(d==1 && (i+1)%5==0) {
                                 return "<img src='92.png' width='60' height='60'>";
                             }
